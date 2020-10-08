@@ -8,5 +8,5 @@ in other words, eliminated a player with each weapon given to them,
 They respawn on the map with no weapons except their bare fists, and that player has to melee everyone else before they die in order to win.
 If a player dies before they can upgrade their weapon, they are left with the  weapon they acquired previously in the game.
 For more information, you can check the wiki page for the game with this link.
-![Quake wiki](https://github.com/Kratosflare/Solid-Quake-Adventure.wiki.git)
+![Quake wiki](https://github.com/Kratosflare/Solid-Quake-Adventure/wiki)
 
