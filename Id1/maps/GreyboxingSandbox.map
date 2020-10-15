@@ -359,36 +359,35 @@
 // entity 2
 {
 "classname" "testplayerstart"
-"origin" "256 -1392 8"
+"origin" "631 -919 8"
 "angle" "180"
 }
 // entity 3
 {
 "classname" "testplayerstart"
-"origin" "631 -919 8"
-"angle" "180"
-}
-// entity 4
-{
-"classname" "testplayerstart"
 "origin" "-3344 -1248 6344"
 "angle" "180"
 }
-// entity 5
+// entity 4
 {
 "classname" "info_player_deathmatch"
 "origin" "-3344 2336 4"
 "angle" "270"
 }
-// entity 6
+// entity 5
 {
 "classname" "info_player_deathmatch"
 "origin" "256 -1424 4"
 "angle" "180"
 }
-// entity 7
+// entity 6
 {
 "classname" "info_player_deathmatch"
 "origin" "544 -928 4"
 "angle" "180"
+}
+// entity 7
+{
+"classname" "info_player_deathmatch"
+"origin" "-1344 2368 4"
 }
