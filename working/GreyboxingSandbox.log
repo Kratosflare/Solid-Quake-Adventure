@@ -4,9 +4,9 @@ Output file: GreyboxingSandbox.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-          122 faces
-           18 brushes
-            2 entities
+          153 faces
+           22 brushes
+            3 entities
             4 unique texnames
            16 texinfo
 
@@ -15,50 +15,50 @@ Opened WAD: C:/Users/mepow/Downloads/quake-leveldesign-starterkit-master (2)/qua
 Opened WAD: C:/QuakeDeve/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-           18 brushes
-           94 planes
+           22 brushes
+          121 planes
 ---- CSGFaces ----
-          122 brushfaces
-          183 csgfaces
-          160 mergedfaces
+          153 brushfaces
+          235 csgfaces
+          199 mergedfaces
 ---- SolidBSP ----
-          289 split nodes
-           95 solid leafs
-          195 empty leafs
+          366 split nodes
+          117 solid leafs
+          250 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         6701 leaffaces
-         6527 nodefaces
+         7112 leaffaces
+         6890 nodefaces
 ---- Portalize ----
-          195 vis leafs
-          195 vis clusters
-          567 vis portals
+          250 vis leafs
+          250 vis clusters
+          760 vis portals
 ---- FillOutside ----
           120 outleafs
 ---- MergeAll ----
-          111 mergefaces
+          153 mergefaces
 ---- SolidBSP ----
-          146 split nodes
-           72 solid leafs
-           75 empty leafs
+          225 split nodes
+           97 solid leafs
+          129 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         3282 leaffaces
-         3115 nodefaces
+         3738 leaffaces
+         3533 nodefaces
 ---- Portalize ----
-           75 vis leafs
-           75 vis clusters
-          268 vis portals
+          129 vis leafs
+          129 vis clusters
+          453 vis portals
 ---- Tjunc ----
-         1321 world edges
-         8549 edge points
-         1904 edges added by tjunctions
+         1559 world edges
+         9740 edge points
+         2104 edges added by tjunctions
             0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
@@ -67,20 +67,20 @@ Processing hull 2...
 *** WARNING 16: Texture __TB_empty not found
 ---- WriteBSPFile ----
 Wrote GreyboxingSandbox.bsp
-          207 planes             4140
-         4063 vertexes          48756
-          146 nodes              3504
+          290 planes             5800
+         4579 vertexes          54948
+          225 nodes              5400
            13 texinfo             520
-         3115 faces             62300
-          334 clipnodes          2672
-           76 leafs              2128
-         3282 marksurfaces       6564
-        14348 surfedges         57392
-         7175 edges             28700
+         3533 faces             70660
+          529 clipnodes          4232
+          130 leafs              3640
+         3738 marksurfaces       7476
+        16216 surfedges         64864
+         8109 edges             32436
             4 textures          49100
               lightdata             0
               visdata               0
-              entdata             298
+              entdata             356
 
-0.143 seconds elapsed
-Peak memory usage: 11393788 (10.9M)
+0.174 seconds elapsed
+Peak memory usage: 12844100 (12.2M)
