@@ -9,7 +9,7 @@ BSP is version 29
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	6297 solid faces
+	3115 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 0 initial lights
@@ -25,7 +25,7 @@ Lighting Completed.
 lightdatasize: 0
 0 switchable light styles (32 max)
 Writing GreyboxingSandbox.bsp as BSP version 29
-1.159 seconds elapsed
+0.484 seconds elapsed
 
 stats:
 0.000000 lights tested, 0.000000 hits per sample point
