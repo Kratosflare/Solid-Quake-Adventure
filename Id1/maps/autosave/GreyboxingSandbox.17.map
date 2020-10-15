@@ -397,25 +397,5 @@
 // entity 8
 {
 "classname" "weapon_supershotgun"
-"origin" "576 464 -20"
-}
-// entity 9
-{
-"classname" "weapon_nailgun"
-"origin" "-48 800 -20"
-}
-// entity 10
-{
-"classname" "weapon_supernailgun"
-"origin" "-224 1152 111"
-}
-// entity 11
-{
-"classname" "weapon_grenadelauncher"
-"origin" "320 1152 140"
-}
-// entity 12
-{
-"classname" "weapon_rocketlauncher"
-"origin" "640 880 140"
+"origin" "48 256 368"
 }
