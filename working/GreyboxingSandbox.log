@@ -3,11 +3,10 @@ Input file: GreyboxingSandbox.map
 Output file: GreyboxingSandbox.bsp
 
 ---- LoadMapFile ----
-*** WARNING 02: Multiple info_player_start entities
 *** WARNING 06: No info_player_deathmatch entities in level
-           68 faces
-           10 brushes
-            5 entities
+           74 faces
+           11 brushes
+            2 entities
             3 unique texnames
            10 texinfo
 
@@ -16,52 +15,52 @@ Opened WAD: C:/Users/mepow/Downloads/quake-leveldesign-starterkit-master (2)/qua
 Opened WAD: C:/QuakeDeve/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-           10 brushes
-           55 planes
+           11 brushes
+           58 planes
 ---- CSGFaces ----
-           68 brushfaces
-           99 csgfaces
-           99 mergedfaces
+           74 brushfaces
+           91 csgfaces
+           88 mergedfaces
 ---- SolidBSP ----
-          160 split nodes
-           46 solid leafs
-          115 empty leafs
+          149 split nodes
+           43 solid leafs
+          107 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         6656 leaffaces
-         6458 nodefaces
+         6514 leaffaces
+         6360 nodefaces
 ---- Portalize ----
-          115 vis leafs
-          115 vis clusters
-          333 vis portals
+          107 vis leafs
+          107 vis clusters
+          295 vis portals
 ---- FillOutside ----
-*** WARNING 10: Reached occupant at (-3221 2629 144), no filling performed.
+*** WARNING 10: Reached occupant at (1829 2523 1504), no filling performed.
 Leak file written to GreyboxingSandbox.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
-*** WARNING 10: Reached occupant at (2144 -624 56), no filling performed.
+*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
 Processing hull 2...
-*** WARNING 10: Reached occupant at (2144 -624 56), no filling performed.
+*** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote GreyboxingSandbox.bsp
-          150 planes             3000
-         7546 vertexes          90552
-          160 nodes              3840
+          147 planes             2940
+         7483 vertexes          89796
+          149 nodes              3576
            10 texinfo             400
-         6458 faces            129160
-          392 clipnodes          3136
-          116 leafs              3248
-         6656 marksurfaces      13312
-        25820 surfedges        103280
-        14261 edges             57044
+         6360 faces            127200
+          350 clipnodes          2800
+          108 leafs              3024
+         6514 marksurfaces      13028
+        25433 surfedges        101732
+        14120 edges             56480
             3 textures          49096
               lightdata             0
               visdata               0
-              entdata             493
+              entdata             300
 
-0.135 seconds elapsed
-Peak memory usage: 16334200 (15.6M)
+0.126 seconds elapsed
+Peak memory usage: 15508788 (14.8M)
