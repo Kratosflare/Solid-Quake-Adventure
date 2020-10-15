@@ -4,61 +4,63 @@ Output file: GreyboxingSandbox.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-          167 faces
-           25 brushes
-            3 entities
+          240 faces
+           35 brushes
+            5 entities
             3 unique texnames
-           12 texinfo
+           13 texinfo
 
 Opened WAD: C:/QuakeDeve/wads/id1.wad
 Opened WAD: C:/Users/mepow/Downloads/quake-leveldesign-starterkit-master (2)/quake-leveldesign-starterkit-master/wads/prototype_1_2.wad
 Opened WAD: C:/QuakeDeve/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-           25 brushes
-          138 planes
+           35 brushes
+          195 planes
 ---- CSGFaces ----
-          167 brushfaces
-          249 csgfaces
-          230 mergedfaces
+          240 brushfaces
+          369 csgfaces
+          327 mergedfaces
 ---- SolidBSP ----
-          473 split nodes
-          157 solid leafs
-          317 empty leafs
+          739 split nodes
+          250 solid leafs
+          490 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         7330 leaffaces
-         7124 nodefaces
+         8039 leaffaces
+         7705 nodefaces
 ---- Portalize ----
-          317 vis leafs
-          317 vis clusters
-         1046 vis portals
+          490 vis leafs
+          490 vis clusters
+         1645 vis portals
 ---- FillOutside ----
-*** WARNING 10: Reached occupant at (272 -1408 8), no filling performed.
+*** WARNING 10: Reached occupant at (-3344 -1248 6344), no filling performed.
 Leak file written to GreyboxingSandbox.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
+*** WARNING 10: Reached occupant at (-3344 -1248 6344), no filling performed.
 Processing hull 2...
+*** WARNING 10: Reached occupant at (-3344 -1248 6344), no filling performed.
 ---- WriteBSPFile ----
 Wrote GreyboxingSandbox.bsp
-          374 planes             7480
-         8948 vertexes         107376
-          473 nodes             11352
-           11 texinfo             440
-         7124 faces            142480
-          641 clipnodes          5128
-          318 leafs              8904
-         7330 marksurfaces      14660
-        28485 surfedges        113940
-        16591 edges             66364
+          605 planes            12100
+         9730 vertexes         116760
+          739 nodes             17736
+           12 texinfo             480
+         7705 faces            154100
+         1570 clipnodes         12560
+          491 leafs             13748
+         8039 marksurfaces      16078
+        30800 surfedges        123200
+        18128 edges             72512
             3 textures          49096
               lightdata             0
               visdata               0
-              entdata             369
+              entdata             515
 
-0.160 seconds elapsed
-Peak memory usage: 19684468 (18.8M)
+0.775 seconds elapsed
+Peak memory usage: 22599718 (21.6M)
