@@ -383,12 +383,5 @@
 // entity 6
 {
 "classname" "info_player_deathmatch"
-"origin" "256 -1424 4"
-"angle" "180"
-}
-// entity 7
-{
-"classname" "info_player_deathmatch"
-"origin" "544 -928 4"
-"angle" "180"
+"origin" "272 -1456 4"
 }
