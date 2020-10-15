@@ -3,15 +3,5 @@ running with 8 threads
 testlevel = 4
 LoadBSPFile: 'GreyboxingSandbox.bsp'
 BSP is version 29
-   129 leafs
-   453 portals
-Calculating Base Vis:
-0....1....2....3....4....5....6....7....8....9....
-Calculating Full Vis:
-0....1....2....3....4....5....6....7....8....9....
-average leafs visible: 101
-c_noclip: 0
-c_chains: 384909
-visdatasize:2221  compressed from 2193
-Writing GreyboxingSandbox.bsp as BSP version 29
-  0.3 seconds elapsed
+LoadPortals: couldn't read GreyboxingSandbox.prt
+No vising performed.
