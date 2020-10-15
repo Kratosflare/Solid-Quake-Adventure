@@ -1,0 +1,7 @@
+---- vis / ericw-tools v0.18.1 ----
+running with 8 threads
+testlevel = 4
+LoadBSPFile: 'GreyboxingSandbox.bsp'
+BSP is version 29
+LoadPortals: couldn't read GreyboxingSandbox.prt
+No vising performed.

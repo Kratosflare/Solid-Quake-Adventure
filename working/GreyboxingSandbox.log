@@ -1,0 +1,67 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: GreyboxingSandbox.map
+Output file: GreyboxingSandbox.bsp
+
+---- LoadMapFile ----
+*** WARNING 02: Multiple info_player_start entities
+*** WARNING 06: No info_player_deathmatch entities in level
+           68 faces
+           10 brushes
+            5 entities
+            3 unique texnames
+           10 texinfo
+
+Opened WAD: C:/QuakeDeve/wads/id1.wad
+Opened WAD: C:/Users/mepow/Downloads/quake-leveldesign-starterkit-master (2)/quake-leveldesign-starterkit-master/wads/prototype_1_2.wad
+Opened WAD: C:/QuakeDeve/wads/prototype_1_2.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+           10 brushes
+           55 planes
+---- CSGFaces ----
+           68 brushfaces
+           99 csgfaces
+           99 mergedfaces
+---- SolidBSP ----
+          160 split nodes
+           46 solid leafs
+          115 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         6656 leaffaces
+         6458 nodefaces
+---- Portalize ----
+          115 vis leafs
+          115 vis clusters
+          333 vis portals
+---- FillOutside ----
+*** WARNING 10: Reached occupant at (-3221 2629 144), no filling performed.
+Leak file written to GreyboxingSandbox.pts
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+*** WARNING 10: Reached occupant at (2144 -624 56), no filling performed.
+Processing hull 2...
+*** WARNING 10: Reached occupant at (2144 -624 56), no filling performed.
+---- WriteBSPFile ----
+Wrote GreyboxingSandbox.bsp
+          150 planes             3000
+         7546 vertexes          90552
+          160 nodes              3840
+           10 texinfo             400
+         6458 faces            129160
+          392 clipnodes          3136
+          116 leafs              3248
+         6656 marksurfaces      13312
+        25820 surfedges        103280
+        14261 edges             57044
+            3 textures          49096
+              lightdata             0
+              visdata               0
+              entdata             493
+
+0.135 seconds elapsed
+Peak memory usage: 16334200 (15.6M)
