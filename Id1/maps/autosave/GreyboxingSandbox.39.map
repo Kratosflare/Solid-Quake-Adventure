@@ -397,7 +397,7 @@
 // entity 4
 {
 "classname" "info_player_deathmatch"
-"origin" "-2928 -1136 4"
+"origin" "-2912 -1136 4"
 "angle" "90"
 }
 // entity 5
@@ -454,31 +454,34 @@
 // entity 14
 {
 "classname" "item_rockets"
-"origin" "-1328 544 -20"
-"spawnflags" "1"
+"origin" "-1712 1072 -20"
 }
 // entity 15
+{
+"classname" "item_spikes"
+"origin" "-96 -240 -4"
+}
+// entity 16
 {
 "classname" "item_armor2"
 "origin" "-2192 1424 327"
 }
-// entity 16
+// entity 17
 {
 "classname" "item_armorInv"
 "origin" "-1648 208 508"
 }
-// entity 17
+// entity 18
 {
 "classname" "item_health"
 "origin" "-1232 832 -20"
-"spawnflags" "2"
 }
-// entity 18
+// entity 19
 {
 "classname" "item_artifact_super_damage"
 "origin" "-1344 688 392"
 }
-// entity 19
+// entity 20
 {
 "classname" "func_train"
 "target" "path1"
@@ -492,46 +495,46 @@
 ( 368 -1184 75.861198738170174 ) ( 400 -992 -20.13880126182983 ) ( 368 -1184 -20.13880126182983 ) 128_blue_2 0 0 0 1 1
 }
 }
-// entity 20
+// entity 21
 {
 "classname" "path_corner"
 "origin" "-16312 -4200 676"
 "target" "path2"
 "targetname" "path1"
 }
-// entity 21
+// entity 22
 {
 "classname" "path_corner"
 "origin" "264 -1176 4"
 "target" "path1"
 "targetname" "path2"
 }
-// entity 22
+// entity 23
 {
 "classname" "info_teleport_destination"
 "origin" "-720 -1312 508"
 "angle" "90"
 }
-// entity 23
+// entity 24
 {
 "classname" "item_rockets"
 "origin" "-1328 -320 668"
 }
-// entity 24
+// entity 25
 {
 "classname" "path_corner"
 "origin" "-1064 -264 8"
 "target" "telerise2"
 "targetname" "telerise1"
 }
-// entity 25
+// entity 26
 {
 "classname" "path_corner"
 "origin" "-1192 -456 644"
 "target" "telerise1"
 "targetname" "telerise2"
 }
-// entity 26
+// entity 27
 {
 "classname" "func_train"
 // brush 0
@@ -544,7 +547,7 @@
 ( -867.11838227822363 -97.145412051620838 80 ) ( -832 -232 -32 ) ( -832 -232 80 ) 128_blue_2 0 0 0 1 1
 }
 }
-// entity 27
+// entity 28
 {
 "targetname" "teleport r"
 "spawnflags" "0"
@@ -560,21 +563,21 @@
 ( -480 -1406 730 ) ( -480 -1696 480 ) ( -480 -1696 730 ) *tele01 0 4 0 1 1
 }
 }
-// entity 28
+// entity 29
 {
 "classname" "path_corner"
 "origin" "-2424 -1176 4"
 "target" "corner2"
 "targetname" "corner1"
 }
-// entity 29
+// entity 30
 {
 "classname" "path_corner"
 "origin" "-2444 -1112 360"
 "targetname" "corner2"
 "target" "corner1"
 }
-// entity 30
+// entity 31
 {
 "classname" "item_health"
 "origin" "-704 -240 476"
@@ -583,21 +586,21 @@
 "use" ""
 "Sub_regen" "10 seconds"
 }
-// entity 31
+// entity 32
 {
 "classname" "path_corner"
 "origin" "-2440 1480 8"
 "target" "1"
 "targetname" "2"
 }
-// entity 32
+// entity 33
 {
 "classname" "path_corner"
 "origin" "-2264 1592 536"
 "targetname" "1"
 "target" "2"
 }
-// entity 33
+// entity 34
 {
 "classname" "func_train"
 // brush 0
@@ -610,27 +613,27 @@
 ( -2400 1376 11.86119873817017 ) ( -2400 1568 -20.13880126182983 ) ( -2400 1376 -20.13880126182983 ) 128_blue_2 0 0 0 1 1
 }
 }
-// entity 34
+// entity 35
 {
 "classname" "func_train"
 // brush 0
 {
-( -1904 1584 11.86119873817017 ) ( -1904 1392 -20.13880126182983 ) ( -1904 1584 -20.13880126182983 ) 128_blue_2 0 0 0 1 1
-( -1904 1392 11.86119873817017 ) ( -1792 1392 -20.13880126182983 ) ( -1904 1392 -20.13880126182983 ) 128_blue_2 0 0 0 1 1
-( -1792 1584 -20.13880126182983 ) ( -1904 1392 -20.13880126182983 ) ( -1792 1392 -20.13880126182983 ) 128_blue_2 0 0 0 1 1
-( -1904 1584 0 ) ( -1792 1392 0 ) ( -1904 1392 0 ) 128_blue_2 0 0 0 1 1
-( -1904 1584 11.86119873817017 ) ( -1792 1584 -20.13880126182983 ) ( -1792 1584 11.86119873817017 ) 128_blue_2 0 0 0 1 1
-( -1792 1392 11.86119873817017 ) ( -1792 1584 -20.13880126182983 ) ( -1792 1392 -20.13880126182983 ) 128_blue_2 0 0 0 1 1
+( -1952 1456 11.86119873817017 ) ( -1952 1264 -20.13880126182983 ) ( -1952 1456 -20.13880126182983 ) 128_blue_2 0 0 0 1 1
+( -1952 1264 11.86119873817017 ) ( -1840 1264 -20.13880126182983 ) ( -1952 1264 -20.13880126182983 ) 128_blue_2 0 0 0 1 1
+( -1840 1456 -20.13880126182983 ) ( -1952 1264 -20.13880126182983 ) ( -1840 1264 -20.13880126182983 ) 128_blue_2 0 0 0 1 1
+( -1952 1456 0 ) ( -1840 1264 0 ) ( -1952 1264 0 ) 128_blue_2 0 0 0 1 1
+( -1952 1456 11.86119873817017 ) ( -1840 1456 -20.13880126182983 ) ( -1840 1456 11.86119873817017 ) 128_blue_2 0 0 0 1 1
+( -1840 1264 11.86119873817017 ) ( -1840 1456 -20.13880126182983 ) ( -1840 1264 -20.13880126182983 ) 128_blue_2 0 0 0 1 1
 }
 }
-// entity 35
+// entity 36
 {
 "classname" "path_corner"
-"origin" "-1896 1384 8"
+"origin" "-1880 1384 8"
 "target" "1"
 "targetname" "3"
 }
-// entity 36
+// entity 37
 {
 "classname" "func_train"
 "dmg" "10"
@@ -646,34 +649,34 @@
 ( 112 784 667.86119873817017 ) ( 112 1600 -20.13880126182983 ) ( 112 784 -20.13880126182983 ) 128_blue_2 0 0 0 1 1
 }
 }
-// entity 37
+// entity 38
 {
 "classname" "path_corner"
-"origin" "-200 1560 -8"
+"origin" "-200 1608 -8"
 "target" "crush2"
 "targetname" "crush1"
 "wait" "5"
 }
-// entity 38
+// entity 39
 {
 "classname" "path_corner"
-"origin" "-296 1592 1144"
+"origin" "-392 1576 1144"
 "target" "crush1"
 "targetname" "crush2"
 "wait" "5"
 }
-// entity 39
+// entity 40
 {
 "classname" "item_spikes"
 "origin" "144 1248 -20"
 "Sub_regen" ""
 }
-// entity 40
+// entity 41
 {
 "classname" "item_rockets"
 "origin" "176 1056 -20"
 }
-// entity 41
+// entity 42
 {
 "classname" "trigger_teleport"
 "target" "teleport r"

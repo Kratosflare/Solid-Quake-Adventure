@@ -4,16 +4,21 @@ running with 8 threads
 LoadBSPFile: 'GreyboxingSandbox.bsp'
 BSP is version 29
 --- LoadEntities ---
-WARNING: entity at (-688 1136 111) (weapon_supernailgun) has empty key/value "spawnflags" ""
+WARNING: entity at (224 1264 -17) (weapon_supernailgun) has empty key/value "spawnflags" ""
+WARNING: entity at (-528 1280 -13) (item_armor1) has empty key/value "Sub_regen" ""
+WARNING: entity at (-528 1280 -13) (item_armor1) has empty key/value "use" ""
+WARNING: entity at (-528 1280 -13) (item_armor1) has targetname "Green Armor" which is not targetted by anything.
 WARNING: entity at (-704 -240 476) (item_health) has empty key/value "use" ""
 WARNING: entity at (-704 -240 476) (item_health) has targetname "Healthpack1" which is not targetted by anything.
-WARNING: entity at (-1880 1384 8) (path_corner) has targetname "3" which is not targetted by anything.
-40 entities read, 0 are lights.
+WARNING: entity at (-1896 1384 8) (path_corner) has targetname "3" which is not targetted by anything.
+WARNING: brush entity with mins (-191.00 785.00 -19.) maxs (111.00 1599.00 666.) (func_train) has targetname "crusher" which is not targetted by anything.
+WARNING: entity at (144 1248 -20) (item_spikes) has empty key/value "Sub_regen" ""
+42 entities read, 0 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	7761 solid faces
+	7691 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 0 initial lights
@@ -29,7 +34,7 @@ Lighting Completed.
 lightdatasize: 0
 0 switchable light styles (32 max)
 Writing GreyboxingSandbox.bsp as BSP version 29
-0.730 seconds elapsed
+0.759 seconds elapsed
 
 stats:
 0.000000 lights tested, 0.000000 hits per sample point
