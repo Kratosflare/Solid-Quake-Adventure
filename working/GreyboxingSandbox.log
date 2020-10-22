@@ -3,11 +3,11 @@ Input file: GreyboxingSandbox.map
 Output file: GreyboxingSandbox.bsp
 
 ---- LoadMapFile ----
-          302 faces
-           45 brushes
-           42 entities
-            5 unique texnames
-           49 texinfo
+          311 faces
+           46 brushes
+           45 entities
+            6 unique texnames
+           62 texinfo
 
 Opened WAD: C:/QuakeDeve/wads/id1.wad
 Opened WAD: C:/Users/mepow/Downloads/quake-leveldesign-starterkit-master (2)/quake-leveldesign-starterkit-master/wads/prototype_1_2.wad
@@ -44,22 +44,23 @@ Processing hull 1...
 *** WARNING 10: Reached occupant at (-16312 -4200 676), no filling performed.
 Processing hull 2...
 *** WARNING 10: Reached occupant at (-16312 -4200 676), no filling performed.
+*** WARNING 16: Texture __TB_empty not found
 ---- WriteBSPFile ----
 Wrote GreyboxingSandbox.bsp
-          717 planes            14340
-         9650 vertexes         115800
-         1093 nodes             26232
-           46 texinfo            1840
-         7826 faces            156520
-         2157 clipnodes         17256
-          725 leafs             20300
-         8252 marksurfaces      16504
-        31281 surfedges        125124
-        18343 edges             73372
-            5 textures          76384
+          755 planes            15100
+         9645 vertexes         115740
+         1102 nodes             26448
+           59 texinfo            2360
+         7827 faces            156540
+         2195 clipnodes         17560
+          734 leafs             20552
+         8253 marksurfaces      16506
+        31277 surfedges        125108
+        18331 edges             73324
+            6 textures          76388
               lightdata             0
               visdata               0
-              entdata            3444
+              entdata            3716
 
-0.250 seconds elapsed
-Peak memory usage: 24033112 (22.9M)
+0.865 seconds elapsed
+Peak memory usage: 24039802 (22.9M)
