@@ -15,26 +15,26 @@ Opened WAD: C:/QuakeDeve/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
            38 brushes
-          204 planes
+          203 planes
 ---- CSGFaces ----
           257 brushfaces
-          755 csgfaces
-          606 mergedfaces
+          708 csgfaces
+          569 mergedfaces
 ---- SolidBSP ----
-         1048 split nodes
-          370 solid leafs
-          677 empty leafs
+         1011 split nodes
+          354 solid leafs
+          656 empty leafs
             2 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         8137 leaffaces
-         7711 nodefaces
+         7622 leaffaces
+         7196 nodefaces
 ---- Portalize ----
-          679 vis leafs
-          679 vis clusters
-         2097 vis portals
+          658 vis leafs
+          658 vis clusters
+         2039 vis portals
 ---- FillOutside ----
 *** WARNING 10: Reached occupant at (-16312 -4200 676), no filling performed.
 Leak file written to GreyboxingSandbox.pts
@@ -47,20 +47,20 @@ Processing hull 2...
 *** WARNING 16: Texture __TB_empty not found
 ---- WriteBSPFile ----
 Wrote GreyboxingSandbox.bsp
-          755 planes            15100
-         9645 vertexes         115740
-         1102 nodes             26448
+          748 planes            14960
+         8952 vertexes         107424
+         1065 nodes             25560
            59 texinfo            2360
-         7827 faces            156540
-         2195 clipnodes         17560
-          734 leafs             20552
-         8253 marksurfaces      16506
-        31277 surfedges        125108
-        18331 edges             73324
+         7312 faces            146240
+         2196 clipnodes         17568
+          713 leafs             19964
+         7738 marksurfaces      15476
+        29217 surfedges        116868
+        17076 edges             68304
             6 textures          76388
               lightdata             0
               visdata               0
-              entdata            3716
+              entdata            3713
 
-0.865 seconds elapsed
-Peak memory usage: 24039802 (22.9M)
+0.287 seconds elapsed
+Peak memory usage: 22919156 (21.9M)
