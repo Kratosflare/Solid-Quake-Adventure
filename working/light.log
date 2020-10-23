@@ -9,11 +9,13 @@ WARNING: entity at (-528 1280 -13) (item_armor1) has empty key/value "Sub_regen"
 WARNING: entity at (-528 1280 -13) (item_armor1) has empty key/value "use" ""
 WARNING: entity at (-528 1280 -13) (item_armor1) has targetname "Green Armor" which is not targetted by anything.
 WARNING: entity at (-1232 832 -20) (item_health) has empty key/value "use" ""
+WARNING: entity at (-16312 -4200 676) (path_corner) has unmatched "target" (path2)
+WARNING: entity at (-16312 -4200 676) (path_corner) has targetname "path1" which is not targetted by anything.
 WARNING: entity at (-704 -240 476) (item_health) has empty key/value "use" ""
 WARNING: entity at (-704 -240 476) (item_health) has targetname "Healthpack1" which is not targetted by anything.
 WARNING: brush entity with mins (-191.00 785.00 -19.) maxs (111.00 1599.00 666.) (func_train) has targetname "crusher" which is not targetted by anything.
 WARNING: entity at (144 1248 -20) (item_spikes) has empty key/value "Sub_regen" ""
-45 entities read, 0 are lights.
+40 entities read, 0 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
@@ -34,7 +36,7 @@ Lighting Completed.
 lightdatasize: 0
 0 switchable light styles (32 max)
 Writing GreyboxingSandbox.bsp as BSP version 29
-1.492 seconds elapsed
+1.683 seconds elapsed
 
 stats:
 0.000000 lights tested, 0.000000 hits per sample point
