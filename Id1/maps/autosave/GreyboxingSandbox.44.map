@@ -453,6 +453,7 @@
 "classname" "item_health"
 "origin" "-1232 832 -20"
 "spawnflags" "2"
+"use" ""
 "Sub_regen" "3"
 }
 // entity 18
@@ -477,12 +478,14 @@
 "classname" "item_health"
 "origin" "-672 128 -20"
 "spawnflags" "2"
+"targetname" "Healthpack1"
 "Sub_regen" "10 seconds"
 }
 // entity 22
 {
 "classname" "item_spikes"
 "origin" "144 1248 -20"
+"Sub_regen" ""
 }
 // entity 23
 {

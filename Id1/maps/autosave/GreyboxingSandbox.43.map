@@ -408,7 +408,7 @@
 {
 "classname" "weapon_supernailgun"
 "origin" "224 1264 -17"
-"spawnflags" "512"
+"spawnflags" ""
 }
 // entity 10
 {
@@ -429,7 +429,9 @@
 {
 "classname" "item_armor1"
 "origin" "-528 1280 -13"
-"Sub_regen" "3 seconds"
+"Sub_regen" ""
+"use" ""
+"targetname" "Green Armor"
 }
 // entity 14
 {
@@ -453,6 +455,7 @@
 "classname" "item_health"
 "origin" "-1232 832 -20"
 "spawnflags" "2"
+"use" ""
 "Sub_regen" "3"
 }
 // entity 18
@@ -469,22 +472,31 @@
 }
 // entity 20
 {
-"classname" "item_rockets"
-"origin" "-1200 -480 -20"
+"classname" "info_teleport_destination"
+"origin" "-688 -128 508"
+"angle" "90"
 }
 // entity 21
 {
-"classname" "item_health"
-"origin" "-672 128 -20"
-"spawnflags" "2"
-"Sub_regen" "10 seconds"
+"classname" "item_rockets"
+"origin" "-1200 -480 -20"
 }
 // entity 22
 {
-"classname" "item_spikes"
-"origin" "144 1248 -20"
+"classname" "item_health"
+"origin" "-672 128 -20"
+"spawnflags" "0"
+"targetname" "Healthpack1"
+"use" ""
+"Sub_regen" "10 seconds"
 }
 // entity 23
+{
+"classname" "item_spikes"
+"origin" "144 1248 -20"
+"Sub_regen" ""
+}
+// entity 24
 {
 "classname" "item_rockets"
 "origin" "176 1056 -20"
