@@ -503,7 +503,5 @@
 // entity 26
 {
 "classname" "path_corner"
-"origin" "-1272 728 376"
-"target" "path2"
-"targetname" "path1"
+"origin" "-1224 792 392"
 }

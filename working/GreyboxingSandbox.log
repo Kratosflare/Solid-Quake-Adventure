@@ -5,7 +5,7 @@ Output file: GreyboxingSandbox.bsp
 ---- LoadMapFile ----
           245 faces
            36 brushes
-           24 entities
+           27 entities
             4 unique texnames
            43 texinfo
 
@@ -59,7 +59,7 @@ Wrote GreyboxingSandbox.bsp
             4 textures          70900
               lightdata             0
               visdata               0
-              entdata            1872
+              entdata            2096
 
-0.252 seconds elapsed
-Peak memory usage: 22854770 (21.8M)
+0.188 seconds elapsed
+Peak memory usage: 22854986 (21.8M)

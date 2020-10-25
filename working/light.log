@@ -5,8 +5,8 @@ LoadBSPFile: 'GreyboxingSandbox.bsp'
 BSP is version 29
 --- LoadEntities ---
 WARNING: entity at (-16312 -4200 676) (path_corner) has unmatched "target" (path2)
-WARNING: entity at (-16312 -4200 676) (path_corner) has targetname "path1" which is not targetted by anything.
-24 entities read, 0 are lights.
+WARNING: entity at (-1272 728 376) (path_corner) has unmatched "target" (path2)
+27 entities read, 2 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
@@ -14,22 +14,22 @@ Embree_TraceInit:
 	7330 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 0 initial lights
-SetupLights: 0 after surface lights
-SetupLights: 0 after jittering
+SetupLights: 2 initial lights
+SetupLights: 2 after surface lights
+SetupLights: 2 after jittering
 --- EstimateLightVisibility ---
-
-Final count: 0 lights 0 suns in use.
+0....1....2....3....4....5
+Final count: 2 lights 0 suns in use.
 --- LightWorld ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 0
+lightdatasize: 3397
 0 switchable light styles (32 max)
 Writing GreyboxingSandbox.bsp as BSP version 29
-1.390 seconds elapsed
+0.603 seconds elapsed
 
 stats:
-0.000000 lights tested, 0.000000 hits per sample point
+0.002680 lights tested, 0.002087 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps
