@@ -4,9 +4,7 @@ running with 8 threads
 LoadBSPFile: 'GreyboxingSandbox.bsp'
 BSP is version 29
 --- LoadEntities ---
-WARNING: entity at (-16312 -4200 676) (path_corner) has unmatched "target" (path2)
-WARNING: entity at (-1272 728 376) (path_corner) has unmatched "target" (path2)
-27 entities read, 2 are lights.
+23 entities read, 2 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
@@ -27,7 +25,7 @@ Lighting Completed.
 lightdatasize: 3397
 0 switchable light styles (32 max)
 Writing GreyboxingSandbox.bsp as BSP version 29
-0.603 seconds elapsed
+0.628 seconds elapsed
 
 stats:
 0.002680 lights tested, 0.002087 hits per sample point
