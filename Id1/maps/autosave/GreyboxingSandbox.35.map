@@ -546,7 +546,7 @@
 // entity 35
 {
 "classname" "light_torch_small_walltorch"
-"origin" "548 -1164 220"
+"origin" "548 -1164 44"
 }
 // entity 36
 {
@@ -667,4 +667,14 @@
 ( -16 1616 -4.1388012618314134 ) ( -16 1616 640 ) ( -144 1648 -4.1388012618316452 ) city6_8 0 0 0 1 1
 ( -16 784 640 ) ( -16 1616 640 ) ( -16 1616 -4.1388012618314134 ) city6_8 0 0 0 1 1
 }
+}
+// entity 54
+{
+"classname" "light_torch_small_walltorch"
+"origin" "276 -1164 44"
+}
+// entity 55
+{
+"classname" "light_torch_small_walltorch"
+"origin" "564 -924 44"
 }

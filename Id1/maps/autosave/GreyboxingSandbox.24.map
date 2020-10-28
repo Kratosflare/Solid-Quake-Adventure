@@ -357,15 +357,6 @@
 ( -192 1616 11.86119873817017 ) ( -16 1616 -20.13880126182983 ) ( -16 1616 11.86119873817017 ) 128_blood_3 0 0 0 1 1
 ( -16 784 11.86119873817017 ) ( -16 1616 -20.13880126182983 ) ( -16 784 -20.13880126182983 ) 128_blood_3 0 0 0 1 1
 }
-// brush 36
-{
-( -176 368 48 ) ( -176 369 48 ) ( -176 368 49 ) __TB_empty 0 0 0 1 1
-( -176 368 48 ) ( -176 368 49 ) ( -175 368 48 ) __TB_empty 0 0 0 1 1
-( -176 368 48 ) ( -175 368 48 ) ( -176 369 48 ) __TB_empty 0 0 0 1 1
-( -160 384 64 ) ( -160 385 64 ) ( -159 384 64 ) __TB_empty 0 0 0 1 1
-( -160 384 64 ) ( -159 384 64 ) ( -160 384 65 ) __TB_empty 0 0 0 1 1
-( -160 384 64 ) ( -160 384 65 ) ( -160 385 64 ) __TB_empty 0 0 0 1 1
-}
 }
 // entity 1
 {
@@ -478,16 +469,82 @@
 // entity 20
 {
 "classname" "light"
-"origin" "-152 168 -12"
+"origin" "-152 168 612"
 "light" "250"
 }
 // entity 21
 {
 "classname" "light_torch_small_walltorch"
-"origin" "-164 356 56"
+"origin" "-164 356 264"
 }
 // entity 22
 {
 "classname" "info_player_deathmatch"
 "origin" "-3248 896 220"
+}
+// entity 23
+{
+"classname" "light"
+"origin" "-904 8 1720"
+"light" "3000"
+}
+// entity 24
+{
+"classname" "light"
+"origin" "-1384 -180 520"
+}
+// entity 25
+{
+"classname" "light"
+"origin" "-1272 -218 488"
+}
+// entity 26
+{
+"classname" "light"
+"origin" "-1176 -488 1720"
+}
+// entity 27
+{
+"classname" "light"
+"origin" "-872 1592 -12"
+}
+// entity 28
+{
+"classname" "light"
+"origin" "-792 1592 -12"
+}
+// entity 29
+{
+"classname" "light"
+"origin" "-1512 136 312"
+}
+// entity 30
+{
+"classname" "light"
+"origin" "-712 -648 484"
+}
+// entity 31
+{
+"classname" "light"
+"origin" "-1272 840 -12"
+}
+// entity 32
+{
+"classname" "light"
+"origin" "-1176 43 1048"
+}
+// entity 33
+{
+"classname" "light"
+"origin" "-200 -344 456"
+}
+// entity 34
+{
+"classname" "light_flame_large_yellow"
+"origin" "-472 -904 252"
+}
+// entity 35
+{
+"classname" "light_torch_small_walltorch"
+"origin" "388 -1468 220"
 }

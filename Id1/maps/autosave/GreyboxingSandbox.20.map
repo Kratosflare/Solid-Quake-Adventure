@@ -462,46 +462,39 @@
 }
 // entity 19
 {
-"classname" "path_corner"
-"origin" "-16312 -4200 676"
-"target" "path2"
-"targetname" "path1"
-}
-// entity 20
-{
 "classname" "item_rockets"
 "origin" "-1200 -480 -20"
 }
-// entity 21
+// entity 20
 {
 "classname" "item_health"
 "origin" "-672 128 -20"
 "spawnflags" "2"
 "Sub_regen" "10 seconds"
 }
-// entity 22
+// entity 21
 {
 "classname" "item_spikes"
 "origin" "144 1248 -20"
 }
-// entity 23
+// entity 22
 {
 "classname" "item_rockets"
 "origin" "176 1056 -20"
 }
-// entity 24
+// entity 23
 {
 "classname" "light"
 "origin" "-152 168 -12"
 "light" "250"
 }
-// entity 25
+// entity 24
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-164 356 56"
 }
-// entity 26
+// entity 25
 {
 "classname" "path_corner"
-"origin" "-1224 792 392"
+"origin" "-920 216 -12"
 }

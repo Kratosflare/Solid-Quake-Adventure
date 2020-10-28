@@ -733,8 +733,8 @@
 // entity 60
 {
 "classname" "trigger_teleport"
-"target" "tele1"
-"targetname" "tele"
+"target" "tele2"
+"spawnflags" "1"
 // brush 0
 {
 ( 784 -1376 256 ) ( 784 -1504 -16 ) ( 784 -1376 -16 ) *teleport 0 0 -1 1 1
@@ -983,18 +983,7 @@
 }
 // entity 100
 {
-"classname" "trigger_teleport"
-"targetname" "tele1"
-"target" "tele"
-// brush 0
-{
-( -672 416 256 ) ( -672 288 -16 ) ( -672 416 -16 ) *teleport 0 0 -1 1 1
-( -640 416 256 ) ( -672 416 208 ) ( -672 544 208 ) *teleport 0 0 -1 1 1
-( -672 288 -16 ) ( -480 288 256 ) ( -480 288 -16 ) *teleport 0 0 -1 1 1
-( -480 416 -16 ) ( -672 288 -16 ) ( -480 288 -16 ) *teleport 0 0 -1 1 1
-( -672 416 256 ) ( -480 288 256 ) ( -672 288 256 ) *teleport 0 0 -1 1 1
-( -672 416 256 ) ( -480 416 -16 ) ( -480 416 256 ) *teleport 0 0 -1 1 1
-( -480 416 192 ) ( -528 416 256 ) ( -528 544 256 ) *teleport 0 0 -1 1 1
-( -480 416 256 ) ( -480 288 -16 ) ( -480 288 256 ) *teleport 0 0 -1 1 1
-}
+"classname" "info_teleport_destination"
+"origin" "-688 1088 -20"
+"targetname" "tele2"
 }

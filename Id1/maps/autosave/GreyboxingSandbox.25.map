@@ -548,3 +548,45 @@
 "classname" "light_torch_small_walltorch"
 "origin" "388 -1468 220"
 }
+// entity 36
+{
+"classname" "light"
+"origin" "-1448 -1464 264"
+"light" "1000000"
+}
+// entity 37
+{
+"classname" "light"
+"origin" "-3284 -1176 200"
+}
+// entity 38
+{
+"classname" "light"
+"origin" "-3284 -280 456"
+}
+// entity 39
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-2724 1596 284"
+}
+// entity 40
+{
+"classname" "light"
+"origin" "-1224 -352 776"
+"light" "3000"
+}
+// entity 41
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-1252 -383 236"
+}
+// entity 42
+{
+"classname" "light_flame_small_yellow"
+"origin" "-948 -1316 92"
+}
+// entity 43
+{
+"classname" "event_lightning"
+"origin" "-3272 -1464 184"
+}

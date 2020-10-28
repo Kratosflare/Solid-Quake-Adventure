@@ -521,7 +521,7 @@
 // entity 30
 {
 "classname" "light"
-"origin" "-712 -648 484"
+"origin" "-280 -1496 228"
 }
 // entity 31
 {
@@ -587,6 +587,40 @@
 }
 // entity 43
 {
-"classname" "event_lightning"
-"origin" "-3272 -1464 184"
+"classname" "light"
+"origin" "-1160 872 1720"
+}
+// entity 44
+{
+"classname" "light"
+"origin" "-152 984 1720"
+}
+// entity 45
+{
+"classname" "light"
+"origin" "-2504 56 1720"
+}
+// entity 46
+{
+"classname" "light"
+"origin" "-2408 984 1720"
+}
+// entity 47
+{
+"classname" "light_globe"
+"origin" "-728 -872 500"
+}
+// entity 48
+{
+"classname" "path_corner"
+"origin" "-1000 -232 -12"
+"target" "2"
+"targetname" "1"
+}
+// entity 49
+{
+"classname" "path_corner"
+"origin" "-968 568 -12"
+"target" "1"
+"targetname" "2"
 }

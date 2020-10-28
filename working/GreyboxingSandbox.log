@@ -6,7 +6,7 @@ Output file: GreyboxingSandbox.bsp
 *** WARNING 02: Multiple info_player_start entities
           298 faces
            44 brushes
-          100 entities
+          101 entities
            23 unique texnames
           105 texinfo
 
@@ -60,7 +60,7 @@ Wrote GreyboxingSandbox.bsp
            23 textures         176456
               lightdata             0
               visdata               0
-              entdata            6598
+              entdata            6722
 
-0.232 seconds elapsed
-Peak memory usage: 24141624 (23.0M)
+0.237 seconds elapsed
+Peak memory usage: 24141744 (23.0M)

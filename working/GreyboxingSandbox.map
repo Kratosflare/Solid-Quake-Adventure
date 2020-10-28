@@ -733,6 +733,8 @@
 // entity 60
 {
 "classname" "trigger_teleport"
+"target" "tele2"
+"spawnflags" "1"
 // brush 0
 {
 ( 784 -1376 256 ) ( 784 -1504 -16 ) ( 784 -1376 -16 ) *teleport 0 0 -1 1 1
@@ -978,4 +980,10 @@
 "origin" "200 -1368 456"
 "targetname" "pc1"
 "target" "pc"
+}
+// entity 100
+{
+"classname" "info_teleport_destination"
+"origin" "-688 1088 -20"
+"targetname" "tele2"
 }

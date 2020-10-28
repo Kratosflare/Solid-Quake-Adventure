@@ -4,7 +4,7 @@ running with 8 threads
 LoadBSPFile: 'GreyboxingSandbox.bsp'
 BSP is version 29
 --- LoadEntities ---
-100 entities read, 58 are lights.
+101 entities read, 58 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
@@ -24,10 +24,10 @@ Final count: 58 lights 0 suns in use.
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 320776
+lightdatasize: 320773
 0 switchable light styles (32 max)
 Writing GreyboxingSandbox.bsp as BSP version 29
-0.763 seconds elapsed
+0.691 seconds elapsed
 
 stats:
 1.101596 lights tested, 0.330898 hits per sample point
