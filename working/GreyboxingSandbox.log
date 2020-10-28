@@ -3,63 +3,63 @@ Input file: GreyboxingSandbox.map
 Output file: GreyboxingSandbox.bsp
 
 ---- LoadMapFile ----
-          279 faces
-           41 brushes
-           80 entities
-           13 unique texnames
-           71 texinfo
+          285 faces
+           42 brushes
+           82 entities
+           20 unique texnames
+           95 texinfo
 
 Opened WAD: C:/QuakeDeve/wads/id1.wad
 Opened WAD: C:/Users/mepow/Downloads/quake-leveldesign-starterkit-master (2)/quake-leveldesign-starterkit-master/wads/prototype_1_2.wad
 Opened WAD: C:/QuakeDeve/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-           38 brushes
-          202 planes
+           39 brushes
+          208 planes
 ---- CSGFaces ----
-          257 brushfaces
-          628 csgfaces
-          535 mergedfaces
+          263 brushfaces
+          669 csgfaces
+          566 mergedfaces
 ---- SolidBSP ----
-          974 split nodes
-          336 solid leafs
-          639 empty leafs
+         1025 split nodes
+          345 solid leafs
+          681 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         8048 leaffaces
-         7511 nodefaces
+         8122 leaffaces
+         7564 nodefaces
 ---- Portalize ----
-          639 vis leafs
-          639 vis clusters
-         2030 vis portals
+          681 vis leafs
+          681 vis clusters
+         2156 vis portals
 ---- FillOutside ----
-*** WARNING 10: Reached occupant at (-2116 -1128 200), no filling performed.
+*** WARNING 10: Reached occupant at (-2116 -232 456), no filling performed.
 Leak file written to GreyboxingSandbox.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
-*** WARNING 10: Reached occupant at (-8 -440 1720), no filling performed.
+*** WARNING 10: Reached occupant at (-2116 -232 456), no filling performed.
 Processing hull 2...
-*** WARNING 10: Reached occupant at (-8 -440 1720), no filling performed.
+*** WARNING 10: Reached occupant at (-2116 -232 456), no filling performed.
 ---- WriteBSPFile ----
 Wrote GreyboxingSandbox.bsp
-          652 planes            13040
-         9342 vertexes         112104
-          996 nodes             23904
-           69 texinfo            2760
-         7572 faces            151440
-         2037 clipnodes         16296
-          662 leafs             18536
-         8109 marksurfaces      16218
-        30262 surfedges        121048
-        17729 edges             70916
-           13 textures         128416
+          664 planes            13280
+         9416 vertexes         112992
+         1047 nodes             25128
+           93 texinfo            3720
+         7625 faces            152500
+         2114 clipnodes         16912
+          704 leafs             19712
+         8183 marksurfaces      16366
+        30476 surfedges        121904
+        17885 edges             71540
+           20 textures         173604
               lightdata             0
               visdata               0
-              entdata            5161
+              entdata            5373
 
-0.205 seconds elapsed
-Peak memory usage: 23492894 (22.4M)
+0.218 seconds elapsed
+Peak memory usage: 23873070 (22.8M)
