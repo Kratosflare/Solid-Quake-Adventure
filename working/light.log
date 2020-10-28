@@ -4,30 +4,31 @@ running with 8 threads
 LoadBSPFile: 'GreyboxingSandbox.bsp'
 BSP is version 29
 --- LoadEntities ---
-23 entities read, 2 are lights.
+54 entities read, 27 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	7330 solid faces
+	7209 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 2 initial lights
-SetupLights: 2 after surface lights
-SetupLights: 2 after jittering
+SetupLights: 27 initial lights
+SetupLights: 27 after surface lights
+SetupLights: 27 after jittering
+WARNING: couldn't nudge light in solid at -280.000000 -1496.000000 228.000000
 --- EstimateLightVisibility ---
-0....1....2....3....4....5
-Final count: 2 lights 0 suns in use.
+0....1....2....3....4....5....6....7....8....9...
+Final count: 27 lights 0 suns in use.
 --- LightWorld ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 3397
+lightdatasize: 266286
 0 switchable light styles (32 max)
 Writing GreyboxingSandbox.bsp as BSP version 29
-0.628 seconds elapsed
+0.645 seconds elapsed
 
 stats:
-0.002680 lights tested, 0.002087 hits per sample point
+1.055783 lights tested, 0.396759 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps
