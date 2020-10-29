@@ -4,38 +4,38 @@ Output file: GreyboxingSandbox.bsp
 
 ---- LoadMapFile ----
 *** WARNING 02: Multiple info_player_start entities
-          298 faces
-           44 brushes
-          101 entities
-           23 unique texnames
-          105 texinfo
+          376 faces
+           55 brushes
+          122 entities
+           25 unique texnames
+          107 texinfo
 
 Opened WAD: C:/QuakeDeve/wads/id1.wad
 Opened WAD: C:/Users/mepow/Downloads/quake-leveldesign-starterkit-master (2)/quake-leveldesign-starterkit-master/wads/prototype_1_2.wad
 Opened WAD: C:/QuakeDeve/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-           39 brushes
-          202 planes
+           49 brushes
+          254 planes
 ---- CSGFaces ----
-          264 brushfaces
-          676 csgfaces
-          576 mergedfaces
+          334 brushfaces
+          865 csgfaces
+          701 mergedfaces
 ---- SolidBSP ----
-          972 split nodes
-          331 solid leafs
-          642 empty leafs
+         1126 split nodes
+          395 solid leafs
+          732 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         8111 leaffaces
-         7553 nodefaces
+         8733 leaffaces
+         8081 nodefaces
 ---- Portalize ----
-          642 vis leafs
-          642 vis clusters
-         1986 vis portals
+          732 vis leafs
+          732 vis clusters
+         2302 vis portals
 ---- FillOutside ----
 *** WARNING 10: Reached occupant at (-2116 -232 456), no filling performed.
 Leak file written to GreyboxingSandbox.pts
@@ -47,20 +47,20 @@ Processing hull 2...
 *** WARNING 10: Reached occupant at (-2116 -232 456), no filling performed.
 ---- WriteBSPFile ----
 Wrote GreyboxingSandbox.bsp
-          702 planes            14040
-         9456 vertexes         113472
-         1006 nodes             24144
-          100 texinfo            4000
-         7626 faces            152520
-         2158 clipnodes         17264
-          677 leafs             18956
-         8184 marksurfaces      16368
-        30470 surfedges        121880
-        17963 edges             71852
-           23 textures         176456
+          803 planes            16060
+        10115 vertexes         121380
+         1168 nodes             28032
+           99 texinfo            3960
+         8149 faces            162980
+         2542 clipnodes         20336
+          775 leafs             21700
+         8801 marksurfaces      17602
+        32548 surfedges        130192
+        19271 edges             77084
+           25 textures         179264
               lightdata             0
               visdata               0
-              entdata            6722
+              entdata            7820
 
-0.237 seconds elapsed
-Peak memory usage: 24141744 (23.0M)
+0.248 seconds elapsed
+Peak memory usage: 26571018 (25.3M)

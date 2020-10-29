@@ -6,12 +6,12 @@
 "wad" "C:/QuakeDeve/wads/id1.wad;C:/Users/mepow/Downloads/quake-leveldesign-starterkit-master (2)/quake-leveldesign-starterkit-master/wads/prototype_1_2.wad;C:/QuakeDeve/wads/prototype_1_2.wad"
 // brush 0
 {
-( -3888 -268.80690685704866 -48 ) ( -3888 -267.99564631874546 -48 ) ( -3888 -268.80690685704866 -47.202317043924275 ) 64_green_3 0 0 0 1 1
-( -371.25925925926094 -1776 -48 ) ( -371.25925925926094 -1776 -47.202317043924275 ) ( -370.34307992202599 -1776 -48 ) 64_green_3 0 0 0 1 1
-( -371.25925925926094 -268.80690685704866 -48 ) ( -370.34307992202599 -268.80690685704866 -48 ) ( -371.25925925926094 -267.99564631874546 -48 ) 64_green_3 0 0 0 1 1
-( -253.98830409356606 -164.96555795377498 -20.13880126182983 ) ( -253.98830409356606 -164.15429741546768 -20.13880126182983 ) ( -253.07212475633409 -164.96555795377498 -20.13880126182983 ) 64_green_3 0 0 0 1 1
-( -253.98830409356606 2640 -22.474145405575115 ) ( -253.07212475633409 2640 -22.474145405575115 ) ( -253.98830409356606 2640 -21.676462449499358 ) 64_green_3 0 0 0 1 1
-( 1968 -164.96555795377498 -22.474145405575115 ) ( 1968 -164.96555795377498 -21.676462449499358 ) ( 1968 -164.15429741546768 -22.474145405575115 ) 64_green_3 0 0 0 1 1
+( -3888 -268.80690685704866 -48 ) ( -3888 -267.99564631874546 -48 ) ( -3888 -268.80690685704866 -47.202317043924275 ) azfloor1_1 0 0 0 1 1
+( -371.25925925926094 -1776 -48 ) ( -371.25925925926094 -1776 -47.202317043924275 ) ( -370.34307992202599 -1776 -48 ) azfloor1_1 0 0 0 1 1
+( -371.25925925926094 -268.80690685704866 -48 ) ( -370.34307992202599 -268.80690685704866 -48 ) ( -371.25925925926094 -267.99564631874546 -48 ) azfloor1_1 0 0 0 1 1
+( -253.98830409356606 -164.96555795377498 -20.13880126182983 ) ( -253.98830409356606 -164.15429741546768 -20.13880126182983 ) ( -253.07212475633409 -164.96555795377498 -20.13880126182983 ) azfloor1_1 0 0 0 1 1
+( -253.98830409356606 2640 -22.474145405575115 ) ( -253.07212475633409 2640 -22.474145405575115 ) ( -253.98830409356606 2640 -21.676462449499358 ) azfloor1_1 0 0 0 1 1
+( 1968 -164.96555795377498 -22.474145405575115 ) ( 1968 -164.96555795377498 -21.676462449499358 ) ( 1968 -164.15429741546768 -22.474145405575115 ) azfloor1_1 0 0 0 1 1
 }
 // brush 1
 {
@@ -379,116 +379,172 @@
 // entity 4
 {
 "classname" "info_player_deathmatch"
-"origin" "-2928 -1136 4"
-"angle" "90"
+"origin" "272 -1328 36"
+"angle" "180"
 }
 // entity 5
 {
 "classname" "info_player_deathmatch"
-"origin" "272 -1328 36"
-"angle" "180"
-}
-// entity 6
-{
-"classname" "info_player_deathmatch"
 "origin" "-1936 1504 4"
 }
-// entity 7
+// entity 6
 {
 "classname" "weapon_supershotgun"
 "origin" "576 480 -20"
 }
-// entity 8
+// entity 7
 {
 "classname" "weapon_nailgun"
 "origin" "288 -1104 -20"
 "angle" "0"
 }
-// entity 9
+// entity 8
 {
 "classname" "weapon_supernailgun"
 "origin" "224 1264 -17"
 "spawnflags" "512"
 }
-// entity 10
+// entity 9
 {
 "classname" "weapon_grenadelauncher"
 "origin" "240 1120 -20"
 }
-// entity 11
+// entity 10
 {
 "classname" "weapon_rocketlauncher"
 "origin" "256 960 -20"
 }
-// entity 12
-{
-"classname" "weapon_rocketlauncher"
-"origin" "-1936 -608 -20"
-}
-// entity 13
+// entity 11
 {
 "classname" "item_armor1"
 "origin" "-528 1280 -13"
 "Sub_regen" "3 seconds"
 }
-// entity 14
+// entity 12
 {
 "classname" "item_rockets"
 "origin" "-1328 544 -20"
 "spawnflags" "1"
 "Sub_regen" "1"
 }
-// entity 15
+// entity 13
 {
 "classname" "item_armor2"
 "origin" "-2192 1424 327"
 }
-// entity 16
-{
-"classname" "item_armorInv"
-"origin" "-1808 16 -20"
-}
-// entity 17
+// entity 14
 {
 "classname" "item_health"
 "origin" "-1232 832 -20"
 "spawnflags" "2"
-"use" ""
 "Sub_regen" "3"
 }
-// entity 18
+// entity 15
 {
 "classname" "item_artifact_super_damage"
 "origin" "-1344 688 392"
 }
-// entity 19
-{
-"classname" "path_corner"
-"origin" "-16312 -4200 676"
-"target" "path2"
-"targetname" "path1"
-}
-// entity 20
+// entity 16
 {
 "classname" "item_rockets"
 "origin" "-1200 -480 -20"
 }
-// entity 21
+// entity 17
 {
 "classname" "item_health"
 "origin" "-672 128 -20"
 "spawnflags" "2"
-"targetname" "Healthpack1"
 "Sub_regen" "10 seconds"
 }
-// entity 22
+// entity 18
 {
 "classname" "item_spikes"
 "origin" "144 1248 -20"
-"Sub_regen" ""
 }
-// entity 23
+// entity 19
 {
 "classname" "item_rockets"
 "origin" "176 1056 -20"
+}
+// entity 20
+{
+"classname" "light"
+"origin" "-152 168 612"
+"light" "250"
+}
+// entity 21
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-164 356 264"
+}
+// entity 22
+{
+"classname" "info_player_deathmatch"
+"origin" "-3248 896 220"
+}
+// entity 23
+{
+"classname" "light"
+"origin" "-904 8 1720"
+"light" "3000"
+}
+// entity 24
+{
+"classname" "light"
+"origin" "-1384 -180 520"
+}
+// entity 25
+{
+"classname" "light"
+"origin" "-1272 -218 488"
+}
+// entity 26
+{
+"classname" "light"
+"origin" "-1176 -488 1720"
+}
+// entity 27
+{
+"classname" "light"
+"origin" "-872 1592 -12"
+}
+// entity 28
+{
+"classname" "light"
+"origin" "-792 1592 -12"
+}
+// entity 29
+{
+"classname" "light"
+"origin" "-1512 136 312"
+}
+// entity 30
+{
+"classname" "light"
+"origin" "-712 -648 484"
+}
+// entity 31
+{
+"classname" "light"
+"origin" "-1272 840 -12"
+}
+// entity 32
+{
+"classname" "light"
+"origin" "-1176 43 1048"
+}
+// entity 33
+{
+"classname" "light"
+"origin" "-200 -344 456"
+}
+// entity 34
+{
+"classname" "light_flame_large_yellow"
+"origin" "-472 -904 252"
+}
+// entity 35
+{
+"classname" "light_torch_small_walltorch"
+"origin" "388 -1468 220"
 }
