@@ -4,39 +4,41 @@ running with 8 threads
 LoadBSPFile: 'GreyboxingSandbox.bsp'
 BSP is version 29
 --- LoadEntities ---
-133 entities read, 91 are lights.
+205 entities read, 157 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	8475 solid faces
+	7440 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 91 initial lights
-SetupLights: 91 after surface lights
-SetupLights: 91 after jittering
-WARNING: couldn't nudge light in solid at -408.000000 -1224.000000 228.000000
+SetupLights: 157 initial lights
+SetupLights: 157 after surface lights
+SetupLights: 157 after jittering
+WARNING: couldn't nudge light in solid at -104.000000 888.000000 -12.000000
 WARNING: couldn't nudge light in solid at 1208.000000 -8.000000 360.000000
-WARNING: couldn't nudge light in solid at -1540.000000 1628.000000 284.000000
+WARNING: couldn't nudge light in solid at 712.000000 -1384.000000 108.000000
 WARNING: couldn't nudge light in solid at 1208.000000 -8.000000 360.000000
 WARNING: couldn't nudge light in solid at 1208.000000 -8.000000 360.000000
-WARNING: couldn't nudge light in solid at 1544.000000 -264.000000 -8.000000
-WARNING: couldn't nudge light in solid at 1400.000000 -280.000000 8.000000
-WARNING: couldn't nudge light in solid at 1580.000000 -712.000000 -8.000000
-WARNING: couldn't nudge light in solid at 1364.000000 1655.000000 348.000000
+WARNING: couldn't nudge light in solid at 408.000000 -216.000000 484.000000
+WARNING: couldn't nudge light in solid at 472.000000 -712.000000 200.000000
+WARNING: couldn't nudge light in solid at -104.000000 921.000000 680.000000
+WARNING: couldn't nudge light in solid at -776.000000 1161.000000 808.000000
+WARNING: couldn't nudge light in solid at 1048.000000 1161.000000 808.000000
+WARNING: couldn't nudge light in solid at -1496.000000 504.000000 152.000000
 --- EstimateLightVisibility ---
 0....1....2....3....4....5....6....7....8....9....
-Final count: 91 lights 0 suns in use.
+Final count: 157 lights 0 suns in use.
 --- LightWorld ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 337396
+lightdatasize: 231443
 0 switchable light styles (32 max)
 Writing GreyboxingSandbox.bsp as BSP version 29
-1.897 seconds elapsed
+1.453 seconds elapsed
 
 stats:
-1.086824 lights tested, 0.338299 hits per sample point
+0.825835 lights tested, 0.376759 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps
